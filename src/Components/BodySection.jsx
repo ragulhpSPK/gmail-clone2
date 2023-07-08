@@ -169,8 +169,8 @@ function BodySection() {
               </p>
             </div>
             <div className="flex pl-20 items-center">
-              <p className="flex gap-2">
-                <span className="text-green-600 border border-green-700 px-[3px]">
+              <p className="flex gap-2 items-center">
+                <span className="text-green-600 border border-green-700 h-6 px-[3px]">
                   Ad
                 </span>
                 We’re hiring full-stack developers
@@ -181,9 +181,11 @@ function BodySection() {
               </p>
             </div>
             <div className="flex pl-[17vw] gap-8">
-              <p className="text-blue-600 font-bold text-[12px] border  invisible group-hover:visible rounded-full px-3 border-slate-300">
-                Apply now
-                <ExitToAppIcon />
+              <p className="text-blue-600 w-[8vw] font-bold text-[12px]  invisible group-hover:visible   ">
+                <span className="border rounded-full border-slate-300 px-3 py-2">
+                  Apply now
+                  <ExitToAppIcon />
+                </span>
               </p>
               <p className="invisible  group-hover:visible">
                 <DeleteForeverOutlinedIcon />
@@ -206,8 +208,8 @@ function BodySection() {
               </p>
             </div>
             <div className="flex pl-20 items-center">
-              <p className="flex gap-2">
-                <span className="text-green-600 border border-green-700 px-[3px]">
+              <p className="flex gap-2 items-center">
+                <span className="text-green-600 border border-green-700 h-6 px-[3px]">
                   Ad
                 </span>
                 We’re hiring full-stack developers
@@ -218,9 +220,11 @@ function BodySection() {
               </p>
             </div>
             <div className="flex pl-[17vw] gap-8">
-              <p className="text-blue-600 font-bold text-[12px] border  invisible group-hover:visible rounded-full px-3 border-slate-300">
-                Open now
-                <ExitToAppIcon />
+              <p className="text-blue-600 w-[8vw] font-bold text-[12px]  invisible group-hover:visible   ">
+                <span className="border rounded-full border-slate-300 px-3 py-2">
+                  Open now
+                  <ExitToAppIcon />
+                </span>
               </p>
               <p className="invisible  group-hover:visible">
                 <DeleteForeverOutlinedIcon />

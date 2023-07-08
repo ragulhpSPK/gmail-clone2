@@ -28,411 +28,58 @@ function BodySection() {
       ),
       children: (
         <>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
+          {[
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+            20,
+          ].map((res, i) => {
+            return (
+              <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
+                <div className="flex pl-4  items-center">
+                  <DragIndicatorOutlinedIcon
+                    style={{
+                      fontSize: "18px",
+                      backdropFilter: "10px",
+                    }}
+                    className="invisible group-hover:visible"
+                  />
+                  <div className="flex gap-4 !items-center justify-center">
+                    <input type="checkbox" />
+                    <Rate
+                      count={1}
+                      style={{
+                        fontSize: "15px",
+                      }}
+                    />
+                  </div>
+                </div>
+                <p>LeetCode</p>
 
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
+                <p className="flex group gap-2">
+                  <span className="font-bold group-hover:font-normal">
+                    LeetCode Weekly Digest
+                  </span>
+                  <span>-</span>
+                  <p className="w-[55vw] group-hover:w-[49vw]">
+                    <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
+                      Hi LeetCoders! Are you interested in using your coding
+                      expertise to help millions of LeetCoders expand their
+                      knowledge base and further their careers? LeetCode is
+                      looking for HTML/CSS, DOM, React experts to join the
+                      content team! Check out this post to learn more about the
+                      requirements to join LeetCode's content team.
+                    </span>
+                  </p>
+                </p>
+                <p className="pr-5  group-hover:hidden">Jul 7</p>
+                <p className=" gap-4 pr-7 hidden group-hover:flex">
+                  <ArchiveOutlinedIcon />
+                  <RestoreFromTrashOutlinedIcon />
+                  <EmailOutlinedIcon />
+                  <AccessTimeOutlinedIcon />
+                </p>
               </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
+            );
+          })}
         </>
       ),
     },
@@ -445,366 +92,58 @@ function BodySection() {
       ),
       children: (
         <>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
+          {[
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+            20,
+          ].map((res, i) => {
+            return (
+              <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
+                <div className="flex pl-4  items-center">
+                  <DragIndicatorOutlinedIcon
+                    style={{
+                      fontSize: "18px",
+                      backdropFilter: "10px",
+                    }}
+                    className="invisible group-hover:visible"
+                  />
+                  <div className="flex gap-4 !items-center justify-center">
+                    <input type="checkbox" />
+                    <Rate
+                      count={1}
+                      style={{
+                        fontSize: "15px",
+                      }}
+                    />
+                  </div>
+                </div>
+                <p>LeetCode</p>
 
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
+                <p className="flex group gap-2">
+                  <span className="font-bold group-hover:font-normal">
+                    LeetCode Weekly Digest
+                  </span>
+                  <span>-</span>
+                  <p className="w-[55vw] group-hover:w-[49vw]">
+                    <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
+                      Hi LeetCoders! Are you interested in using your coding
+                      expertise to help millions of LeetCoders expand their
+                      knowledge base and further their careers? LeetCode is
+                      looking for HTML/CSS, DOM, React experts to join the
+                      content team! Check out this post to learn more about the
+                      requirements to join LeetCode's content team.
+                    </span>
+                  </p>
+                </p>
+                <p className="pr-5  group-hover:hidden">Jul 7</p>
+                <p className=" gap-4 pr-7 hidden group-hover:flex">
+                  <ArchiveOutlinedIcon />
+                  <RestoreFromTrashOutlinedIcon />
+                  <EmailOutlinedIcon />
+                  <AccessTimeOutlinedIcon />
+                </p>
               </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
-          <div className="flex justify-between cursor-pointer items-center group border-b py-2.5 hover:shadow-md duration-700 shadow-black/60">
-            <div className="flex pl-4  items-center">
-              <DragIndicatorOutlinedIcon
-                style={{
-                  fontSize: "18px",
-                  backdropFilter: "10px",
-                }}
-                className="invisible group-hover:visible"
-              />
-              <div className="flex gap-4 !items-center justify-center">
-                <input type="checkbox" />
-                <Rate
-                  count={1}
-                  style={{
-                    fontSize: "15px",
-                  }}
-                />
-              </div>
-            </div>
-            <p>LeetCode</p>
-
-            <p className="flex group gap-2">
-              <span className="font-bold group-hover:font-normal">
-                LeetCode Weekly Digest
-              </span>
-              <span>-</span>
-              <p className="w-[55vw] group-hover:w-[49vw]">
-                <span className="text-ellipsis w-[55vw] group-hover:w-[50vw] overflow-hidden line-clamp-1">
-                  Hi LeetCoders! Are you interested in using your coding
-                  expertise to help millions of LeetCoders expand their
-                  knowledge base and further their careers? LeetCode is looking
-                  for HTML/CSS, DOM, React experts to join the content team!
-                  Check out this post to learn more about the requirements to
-                  join LeetCode's content team.
-                </span>
-              </p>
-            </p>
-            <p className="pr-5  group-hover:hidden">Jul 7</p>
-            <p className=" gap-4 pr-7 hidden group-hover:flex">
-              <ArchiveOutlinedIcon />
-              <RestoreFromTrashOutlinedIcon />
-              <EmailOutlinedIcon />
-              <AccessTimeOutlinedIcon />
-            </p>
-          </div>
+            );
+          })}
         </>
       ),
     },

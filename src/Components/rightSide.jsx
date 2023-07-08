@@ -1,15 +1,15 @@
 import React from "react";
 import cal from "../assets/cal.png";
-import bulb from "../assets/bulb.png";
-import social from "../assets/social.png";
-import sent from "../assets/sent.png";
 import { Divider } from "antd";
 import AddOutlinedIcon from "@mui/icons-material/AddOutlined";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
+import Person4Icon from "@mui/icons-material/Person4";
+import LightbulbIcon from "@mui/icons-material/Lightbulb";
 
 function RightSide() {
   return (
-    <div>
-      <div className="flex flex-col gap-10 items-center">
+    <div className="fixed">
+      <div className="flex flex-col gap-10 items-center ">
         <div>
           <img
             src={cal}
@@ -19,32 +19,27 @@ function RightSide() {
             className="cursor-pointer"
           />
         </div>
-        <div>
-          <img
-            src={cal}
-            alt="cal"
-            width={30}
-            height={30}
-            className="cursor-pointer"
+        <div className="bg-yellow-400">
+          <LightbulbIcon
+            style={{
+              color: "white",
+              paddingBottom: 2,
+            }}
           />
         </div>
         <div>
-          <img
-            src={cal}
-            alt="cal"
-            width={30}
-            height={30}
-            className="cursor-pointer"
+          <CheckCircleOutlineIcon
+            style={{
+              color: "blue",
+            }}
           />
         </div>
 
         <div>
-          <img
-            src={social}
-            alt="cal"
-            width={50}
-            height={50}
-            className="cursor-pointer"
+          <Person4Icon
+            style={{
+              color: "blue",
+            }}
           />
         </div>
       </div>

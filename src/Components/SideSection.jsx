@@ -12,8 +12,6 @@ import ScheduleSendOutlinedIcon from "@mui/icons-material/ScheduleSendOutlined";
 import MarkAsUnreadOutlinedIcon from "@mui/icons-material/MarkAsUnreadOutlined";
 import PrivacyTipOutlinedIcon from "@mui/icons-material/PrivacyTipOutlined";
 import RestoreFromTrashOutlinedIcon from "@mui/icons-material/RestoreFromTrashOutlined";
-import ArrowRightOutlinedIcon from "@mui/icons-material/ArrowRightOutlined";
-import SendRoundedIcon from "@mui/icons-material/SendRounded";
 import SkipNextOutlinedIcon from "@mui/icons-material/SkipNextOutlined";
 import GroupOutlinedIcon from "@mui/icons-material/GroupOutlined";
 import SecurityUpdateWarningOutlinedIcon from "@mui/icons-material/SecurityUpdateWarningOutlined";
@@ -21,6 +19,7 @@ import ForumOutlinedIcon from "@mui/icons-material/ForumOutlined";
 import LocalOfferOutlinedIcon from "@mui/icons-material/LocalOfferOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import AddOutlinedIcon from "@mui/icons-material/AddOutlined";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 function SideSection() {
   const [more, setMore] = useState(false);
@@ -28,12 +27,12 @@ function SideSection() {
 
   return (
     <div>
-      <div className=" flex  flex-col pl-5">
-        <div className="flex items-center  bg-[#C2E7FF] w-[60%] cursor-pointer py-3 pl-4 gap-5 rounded-lg">
+      <div className="flex fixed flex-col pl-5">
+        <div className="flex items-center  bg-[#C2E7FF] w-[10vw] cursor-pointer py-3 pl-4 gap-5 rounded-lg">
           <EditIcon />
           Compose
         </div>
-        <div className="pt-5 flex  flex-col gap-1 w-[90%]">
+        <div className="pt-5 flex  flex-col gap-1 w-[13vw]">
           <div className="flex justify-between pr-3 pl-3  bg-[#C2E7FF] py-1.5 rounded-full cursor-pointer">
             <div className="flex gap-3  cursor-pointer">
               <InboxIcon />
@@ -114,20 +113,23 @@ function SideSection() {
                 Trash
               </div>
             </div>
-            <div className="flex justify-between pr-3 pl-3 hover:bg-gray-200 !rounded-full  py-1   cursor-pointer">
-              <div
-                className="flex gap-3  cursor-pointer"
-                onClick={() => {
-                  setCat(!cat);
-                }}
-              >
-                <div>
-                  <KeyboardArrowDownOutlinedIcon className="!ml-[-1vw]" />
-                  <SkipNextOutlinedIcon />
+            <div className="flex w-[15vw] items-center">
+              <ArrowDropDownIcon className="!ml-[-1.2vw] w-[2vw]" />
+              <div className="flex justify-between pr-3 pl-3 w-[13vw] hover:bg-gray-200 !rounded-full  py-1   cursor-pointer">
+                <div
+                  className="flex gap-3  cursor-pointer"
+                  onClick={() => {
+                    setCat(!cat);
+                  }}
+                >
+                  <div>
+                    <SkipNextOutlinedIcon />
+                  </div>
+                  Category
                 </div>
-                Category
               </div>
             </div>
+
             <div className={`${cat ? "flex flex-col gap-3" : "hidden"} pl-7`}>
               <div className="flex justify-between hover:bg-gray-200 py-1 px-3 rounded-full">
                 <div className="flex gap-3   cursor-pointer">

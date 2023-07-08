@@ -10,7 +10,7 @@ import { Avatar } from "antd";
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-between bg-[#F6F8FC] !w-[100vw] px-4 fixed z-50">
+    <div className="flex items-center justify-between bg-[#F6F8FC]  !w-[100vw] px-4 fixed z-50">
       <div className="flex items-center justify-between w-[54vw]">
         <div className="flex items-center ">
           <MenuIcon className="!text-xl cursor-pointer" />

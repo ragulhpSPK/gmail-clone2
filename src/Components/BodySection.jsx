@@ -239,9 +239,9 @@ function BodySection() {
   };
   return (
     <div>
-      <div className="pt-3 pl-2 flex gap-2">
-        <div className="flex flex-col items-center cursor-pointer relative">
-          <div className="flex  items-center cursor-pointer ">
+      <div className=" pl-2 mt-[-20px] flex gap-2 py-3 fixed h-[5vh] shadow w-[82vw] bg-white items-center z-50">
+        <div className="flex flex-col items-center cursor-pointer relative ">
+          <div className="flex  items-center  cursor-pointer ">
             <input type="checkbox" />
             <KeyboardArrowDownOutlinedIcon
               onClick={() => {
@@ -265,7 +265,7 @@ function BodySection() {
         <RefreshOutlinedIcon className="cursor-pointer" />
         <MoreVertOutlinedIcon className="cursor-pointer" />
       </div>
-      <div>
+      <div className="pt-[5vh]">
         <Tabs
           defaultActiveKey="1"
           items={items}
